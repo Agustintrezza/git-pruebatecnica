@@ -15,8 +15,11 @@ git branch
 Para mostrar todas las ramas remotas
 git branch -r
 
+Para pushear por primera vez una rama de local a remoto
+git push -u origin < nombre de la rama >  == git push --set-upstream origin develop;
+
 
 Para pushear los nuevos cambios al repositorio.
 git add .
-git commit -m"Descripción del commit"
+git commit -m "Descripción del commit"
 git push
