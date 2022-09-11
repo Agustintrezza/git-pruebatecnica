@@ -21,6 +21,11 @@ git commit -m"Descripción del commit"
 git push
 
 
+Parado en la rama main " git merge < nombre de la rama que queremos mergear > " (Se actualiza la rama en local, pero luego para subir los cambios al remoto)
+git add . 
+git commit -m"Descripción del commit"
+git push
+
 
 Respuesta 1, exáment técnico GCBA:
 
