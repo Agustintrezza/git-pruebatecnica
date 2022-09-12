@@ -40,7 +40,9 @@ Otra comando que se puede utilizar es "git rever HEAD~n < donde n representa la 
 Respuesta 2
 
 Paso 1: Me muevo a la rama MAIN
-Paso 2: Me paro en el tag v1.2.0
-Paso 3: ng build --prod          //        git tag v1.2.0 (esto es para posicionarse en el tag), para crearlo es git tag -a < v1.2.0 > -m "Mensaje"
+Paso 2: Para crear el tag ingresamos el comando git tag -a < v1.2.0 > -m "Mensaje".
+Paso 3: Para posicionarse en el tag v1.2.0, corremos el comando "git tag v1.2.0".
+Paso 4: ng build --prod
+
 
 
